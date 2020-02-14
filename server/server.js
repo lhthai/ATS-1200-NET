@@ -38,7 +38,7 @@ mongoose.Promise = global.Promise;
 mongoose.connect(process.env.MONGO_URI, { useMongoClient: true });
 
 // Start server and socket IO
-const server = app.listen(process.env.PORT, () =>
+const server = app.listen(process.env.PORT || 8000, () =>
   logger.info(`App started on port ${process.env.PORT}`),
 );
 const io = socketIO.listen(server);
