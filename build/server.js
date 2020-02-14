@@ -56,7 +56,7 @@ _mongoose["default"].connect(process.env.MONGO_URI, {
 }); // Start server and socket IO
 
 
-var server = app.listen(process.env.PORT, function () {
+var server = app.listen(process.env.PORT || 8000, function () {
   return _logger["default"].info("App started on port ".concat(process.env.PORT));
 });
 
