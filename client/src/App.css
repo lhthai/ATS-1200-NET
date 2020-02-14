@@ -1,0 +1,26 @@
+.dataTable tbody > tr > td {
+  padding-bottom: 0.4rem;
+}
+
+.operation-setting-item {
+  height: 120px;
+  max-width: 70%;
+  padding-top: 45px;
+  margin: auto;
+}
+
+.Toastify__toast-container {
+  width: 320px;
+}
+.Toastify__toast--info {
+    background: #007bff;
+ }
+.Toastify__toast--success {
+    background: #28a745;
+ }
+.Toastify__toast--warning {
+    background: #d39e00;
+ }
+.Toastify__toast--error {
+    background: #c82333;
+ }

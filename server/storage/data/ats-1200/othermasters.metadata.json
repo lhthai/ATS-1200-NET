@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"ats-1200.othermasters"},{"v":2,"unique":true,"key":{"code":1},"name":"code_1","ns":"ats-1200.othermasters","background":true}],"uuid":"79240cec95d044d185dcc4ecf7d437f7"}
