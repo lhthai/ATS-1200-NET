@@ -35,7 +35,7 @@
     "drivelist": "^8.0.10",
     "escpos": "^2.5.2",
     "express": "^4.17.1",
-    "mongoose": "^4.13.20",
+    "mongoose": "^5.7.5",
     "serialport": "^8.0.7",
     "socket.io": "^2.3.0",
     "winston": "^3.2.1"
