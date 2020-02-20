@@ -28,9 +28,9 @@ app.use('/', apiRoutes);
 app.use('/setting', settingRoutes);
 
 // Define folder to build and run React app
-app.use(express.static(path.join(__dirname, '../../client/build')));
+app.use(express.static(path.join(__dirname, '../client/build')));
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../../client/build/index.html'));
+  res.sendFile(path.join(__dirname, '../client/build/index.html'));
 });
 
 // Connect database MongoDB

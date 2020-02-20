@@ -44,9 +44,9 @@ app.use((0, _compression["default"])()); // Define APIs and app routes
 app.use('/', _apiRoutes["default"]);
 app.use('/setting', _settingRoutes["default"]); // Define folder to build and run React app
 
-app.use(_express["default"]["static"](_path["default"].join(__dirname, '../../client/build')));
+app.use(_express["default"]["static"](_path["default"].join(__dirname, '../client/build')));
 app.get('*', function (req, res) {
-  res.sendFile(_path["default"].join(__dirname, '../../client/build/index.html'));
+  res.sendFile(_path["default"].join(__dirname, '../client/build/index.html'));
 }); // Connect database MongoDB
 
 _mongoose["default"].Promise = global.Promise;
