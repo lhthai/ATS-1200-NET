@@ -37,7 +37,7 @@
     "express": "^4.17.1",
     "mongoose": "^4.13.20",
     "serialport": "^8.0.7",
-    "socket.io": "^2.3.0",
+    "socket.io": "^2.5.0",
     "winston": "^3.2.1"
   },
   "devDependencies": {
