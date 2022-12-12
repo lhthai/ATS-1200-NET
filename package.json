@@ -34,7 +34,7 @@
     "dotenv": "^8.2.0",
     "drivelist": "^8.0.10",
     "escpos": "^2.5.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mongoose": "^4.13.20",
     "serialport": "^8.0.7",
     "socket.io": "^2.3.0",
